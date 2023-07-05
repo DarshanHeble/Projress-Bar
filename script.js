@@ -40,7 +40,7 @@ let circularProgressjs = document.querySelector(".js"), //js
     progressValuejs = document.querySelector(".progressvaluejs");
 
 let progressStartValuejs = 0;
-let progressEndValuejs = 0;
+let progressEndValuejs = 50;
 
 let progressjs = setInterval(() => {
     progressStartValuejs++;
